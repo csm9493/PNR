@@ -57,7 +57,7 @@ We followed the experimental environment of [CaSSLe](https://github.com/DonkeySh
 
 ### Acknolwedgement
 
-This code is implemented based on the official code of [CaSSLe](https://github.com/DonkeyShot21/cassle).
+This code is implemented based on the official code of [CaSSLe](https://github.com/DonkeyShot21/cassle) and I would like to show my sincere gratitude to authors of it.
 
 -------
 ## Citation
