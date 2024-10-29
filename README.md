@@ -60,25 +60,15 @@ This code is implemented based on the official code of [CaSSLe](https://github.c
 @InProceedings{pmlr-v235-cha24a,
 
   title = 	 {Regularizing with Pseudo-Negatives for Continual Self-Supervised Learning},
-  
   author =       {Cha, Sungmin and Cho, Kyunghyun and Moon, Taesup},
-  
   booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
-  
   pages = 	 {6048--6065},
-  
   year = 	 {2024},
-  
   editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
-  
   volume = 	 {235},
-  
   series = 	 {Proceedings of Machine Learning Research},
-  
   month = 	 {21--27 Jul},
-  
   publisher =    {PMLR}
-  
 }
 
 
