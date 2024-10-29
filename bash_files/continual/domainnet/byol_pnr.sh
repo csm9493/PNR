@@ -32,7 +32,7 @@ python3 main_continual.py \
     --check_val_every_n_epoch 9999 \
     --name $NAME \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint \
     --method byol \

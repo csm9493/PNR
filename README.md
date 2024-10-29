@@ -34,7 +34,7 @@ We followed the experimental environment of [CaSSLe](https://github.com/DonkeySh
 2. Check 'run_cifar100.sh' and change `PROJECT`, `ENTITY` and `DATA_DIR`.
 3. Run the script: ./run_cifar100.sh
 
-> Note that each `.sh` file for experiments using the **ImageNet-100** and **DomainNet** datasets contains code for two stages: "**Step 1: CSSL**" and "**Step 2: Linear Evaluatio**." After completing Step 1 (CSSL), remember to update the model path in `PRETRAINED_PATH` before starting the linear evaluation.
+> Note that each `.sh` file for experiments using the **ImageNet-100** and **DomainNet** datasets contains code for two stages: "**Step 1: CSSL**" and "**Step 2: Linear Evaluation**." After completing Step 1 (CSSL), remember to update the model path in `PRETRAINED_PATH` before starting the linear evaluation.
 > 
 ### CSSL Experiments using ImageNet-100 (class- and data-IL)
 1. Navigate to the project directory: cd PNR

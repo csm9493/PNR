@@ -34,7 +34,7 @@ python3 main_continual.py \
     --name $NAME \
     --save_checkpoint \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --method vicreg \
     --proj_hidden_dim 2048 \

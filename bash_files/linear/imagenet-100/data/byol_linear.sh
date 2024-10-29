@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --dali \
     --name $NAME \
     --pretrained_feature_extractor $PRETRAINED_PATH \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --wandb \
     --save_checkpoint

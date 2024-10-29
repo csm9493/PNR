@@ -19,7 +19,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM main_linear.py \
     --name simclr-domainnet_all-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint
 
@@ -45,7 +45,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
     --name ${NAME}_domainnet_quickdraw-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint &
 
@@ -71,7 +71,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
     --name ${NAME}_domainnet_clipart-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint &
 
@@ -97,7 +97,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
     --name ${NAME}_domainnet_infograph-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint &
 
@@ -123,7 +123,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --name ${NAME}_domainnet_painting-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint &
 
@@ -149,7 +149,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --name ${NAME}_domainnet_real-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint &
 
@@ -175,6 +175,6 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --name ${NAME}_domainnet_sketch-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
-    --project $PROEJCT \
+    --project $PROJECT \
     --entity $ENTITY \
     --save_checkpoint 
