@@ -16,7 +16,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --batch_size 256 \
     --num_workers 8 \
     --dali \
-    --name $NAME \
+    --name ${NAME}_domainnet_all-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
     --project $PROJECT \

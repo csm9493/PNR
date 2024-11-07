@@ -16,7 +16,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM main_linear.py \
     --batch_size 256 \
     --num_workers 7 \
     --dali \
-    --name simclr-domainnet_all-linear-eval \
+    --name ${NAME}_domainnet_all-linear-eval \
     --pretrained_feature_extractor $PRETRAINED_PATH \
     --wandb \
     --project $PROJECT \
@@ -47,7 +47,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
     --wandb \
     --project $PROJECT \
     --entity $ENTITY \
-    --save_checkpoint &
+    --save_checkpoint 
 
 # clipart
 CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
@@ -73,7 +73,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
     --wandb \
     --project $PROJECT \
     --entity $ENTITY \
-    --save_checkpoint &
+    --save_checkpoint 
 
 # infograph
 CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
@@ -99,7 +99,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM  python3 main_linear.py \
     --wandb \
     --project $PROJECT \
     --entity $ENTITY \
-    --save_checkpoint &
+    --save_checkpoint 
 
 # painting
 CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
@@ -125,7 +125,7 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --wandb \
     --project $PROJECT \
     --entity $ENTITY \
-    --save_checkpoint &
+    --save_checkpoint 
 
 # real
 CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
@@ -151,8 +151,8 @@ CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --wandb \
     --project $PROJECT \
     --entity $ENTITY \
-    --save_checkpoint &
-
+    --save_checkpoint 
+    
 # sketch
 CUDA_VISIBLE_DEVICES=$GPU_NUM python3 main_linear.py \
     --dataset domainnet \
